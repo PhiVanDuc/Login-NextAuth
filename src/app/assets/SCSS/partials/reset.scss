@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+} 

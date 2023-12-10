@@ -1,0 +1,33 @@
+.home-page {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1320px;
+        max-width: 100%;
+        height: calc(100vh - 93.5px);
+        padding: 0px 10px;
+        margin: 0 auto;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            font-weight: 800;
+
+            span {
+                font-size: 1.3rem;
+                font-weight: 800;
+                padding: 10px 15px;
+                border-radius: 5px;
+                background-color: #dc3545;
+                color: white;
+                margin-left: 20px;
+                cursor: pointer;
+
+                &.done {
+                    background-color: #28a745;
+                }
+            }
+        }
+    }
+}
