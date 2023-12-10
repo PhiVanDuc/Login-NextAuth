@@ -2,6 +2,10 @@ import './styleHomePage.scss'
 import { getServerSession } from "next-auth/next"
 import options from "./api/auth/[...nextauth]/options"
 
+export const metadata = {
+	title: "Home page",
+}
+
 export default async function HomePage() {
     const session = await getServerSession(options);
 
