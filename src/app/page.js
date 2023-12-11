@@ -15,7 +15,7 @@ export default async function HomePage() {
                 <h1>
                     Home Page
                     {
-                        !session ? <span>Login required</span> : <span className='done'>Logged</span> 
+                        !session ? <span>Login required</span> : <span className='done'>Logged</span>
                     }
                 </h1>
             </div>
